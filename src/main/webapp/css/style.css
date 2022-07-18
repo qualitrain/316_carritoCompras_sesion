@@ -1,0 +1,119 @@
+body{
+    background:#FFFFFF;
+    margin-top: 20px;
+    margin-left:40px;
+    font:small 'Lucida Grande', Verdana, Helvetica, sans-serif;
+    color:#666666;
+}
+
+A:link{ color:#B50000; text-decoration:none; }
+A:hover{ color:#B50000; text-decoration:underline; }
+A:active{ color:#B50000; text-decoration:none; }
+A:active:hover{ color:#B50000; text-decoration:underline; }
+A:visited{ color:#B50000; text-decoration:none; }
+A:visited:hover{ color:#B50000; text-decoration:underline; }
+
+
+#wrap{
+    width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#sidebar{
+    float:left;
+    text-align:left;
+    width:150px;
+}
+
+#container{
+    width:600px;
+    margin-left:160px;
+    border-left:#CCCCCC 1px solid;
+}
+
+#content1{
+    width:570px;
+    padding:20px;
+    float:left;
+    text-align:justify;
+}
+
+#content2{
+    padding:20px;
+    text-align:justify;
+/*    border: 1px solid; */
+}
+
+h3{
+    text-align:center;
+    color:#B50000;
+    font-size:14pt;
+    font-weight:bold;
+}
+h1{
+/*	background-color: aqua; */
+}
+.valor{
+    color:blue;
+/*    font-weight:bold; */
+ }
+#comentarios{
+    margin-top: 20px;
+    border-top: #CCCCCC 1px solid;
+}
+
+#title{
+    height:80px;
+    margin-top:30px;
+    border-bottom:#CCCCCC 1px solid;
+    text-align:right;
+    font-size:10pt;
+    letter-spacing:-1px;
+    color:#CCCCCC;
+}
+
+#footer{
+    text-align:center;
+    font-size:10px;
+    height:30px;
+    margin-top:10px;
+    border-top:#CCCCCC 1px solid;
+    text-transform:lowercase;
+}
+
+#navlist
+{
+    padding: 0 1px 1px;
+    margin-left: 0;
+    font: bold 12px Verdana, sans-serif;
+    background:#F3F3F3;
+    width: 13em;
+}
+
+#navlist li
+{
+    list-style: none;
+    margin: 0;
+    border-top:#CCCCCC 1px solid;
+    text-align: right;
+}
+
+#navlist li a
+{
+    display: block;
+    padding: 0.25em 0.5em 0.25em 0.75em;
+    background: #F3F3F3;
+    text-decoration: none;
+}
+
+#navlist li a:link { color: #B50000; }
+#navlist li a:visited { color: #B50000; }
+
+#navlist li a:hover
+{
+    border-color: #FE3;
+    color: #666666;
+    background: #FFFFFF;
+}
+
