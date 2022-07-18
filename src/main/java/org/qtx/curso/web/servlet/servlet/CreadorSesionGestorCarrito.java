@@ -50,8 +50,7 @@ public void doPost(HttpServletRequest req, HttpServletResponse res)throws Servle
     
     //Armar link de "regreso"
     
-    String url= res.encodeURL("catalogo"); // Para soportar la sesión aunque estén deshabilitadas las cookies
-    
+    String url= "catalogo"; // Sin re-escritura de url
     respuestaHtml+="<P><A HREF=\"" + url  + "\">Regresar</A></P><BR><BR>\n";
     
     // Mostrar la cantidad de productos en el carrito

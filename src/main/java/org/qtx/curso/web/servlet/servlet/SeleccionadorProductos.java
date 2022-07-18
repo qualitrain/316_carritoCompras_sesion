@@ -25,7 +25,7 @@ protected void doGet(HttpServletRequest req, HttpServletResponse res)
     PrintWriter salidaNavegador = res.getWriter();
     salidaNavegador.println(UtileriasHtml.getEncabezadosHtml("Selección de Productos"));
     
-    String url = res.encodeURL("carritoDeCompras");
+    String url = "carritoDeCompras";
     
     salidaNavegador.println(UtileriasHtml.getCuerpoPagSeleccionProdHtml(url));
 
