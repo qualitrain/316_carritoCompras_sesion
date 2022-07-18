@@ -51,6 +51,7 @@ public void doPost(HttpServletRequest req, HttpServletResponse res)throws Servle
     //Armar link de "regreso"
     
     String url= res.encodeURL("catalogo"); // Para soportar la sesión aunque estén deshabilitadas las cookies
+    System.out.println(url);
     
     respuestaHtml+="<P><A HREF=\"" + url  + "\">Regresar</A></P><BR><BR>\n";
     
