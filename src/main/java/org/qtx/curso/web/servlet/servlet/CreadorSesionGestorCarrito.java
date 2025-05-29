@@ -1,7 +1,7 @@
 package org.qtx.curso.web.servlet.servlet;
 
-import javax.servlet.*;
-import javax.servlet.http.*;
+import jakarta.servlet.*;
+import jakarta.servlet.http.*;
 import java.io.*;
 import java.util.*;
 
@@ -13,7 +13,7 @@ public class CreadorSesionGestorCarrito extends HttpServlet {
 
 public void doPost(HttpServletRequest req, HttpServletResponse res)throws ServletException, IOException {
     HttpSession session = req.getSession(true);
-
+    
     // Recuperar carrito a partir de la sesión. Si no existe, crearlo
 
     List<String> carritoDeCompras = (ArrayList<String>) session.getAttribute("carrito");

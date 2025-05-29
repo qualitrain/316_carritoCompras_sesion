@@ -2,7 +2,7 @@ package org.qtx.curso.web.servlet.servlet;
 
 import java.util.Date;
 
-import javax.servlet.http.HttpSession;
+import jakarta.servlet.http.HttpSession;
 
 public class UtileriasHtml {
 	public static String getEncabezadosHtml(String nombrePestaniaNavegador){
